@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=3.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Giriş & Kayıt Ekranı</title>
+        
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container" id="container">
+	<div class="formContainer kayitContainer">
+		<form action="#">
+			<h1>Hesap Oluştur</h1>
+			<input type="text" placeholder="Adı Soyadı" required/>
+			<input type="text" placeholder="Kullancı Adı" required/>
+			<input type="email" placeholder="Email" required/>
+			<input type="password" placeholder="Şifre" />
+			<button>Kayıt Ol</button>
+		</form>
+	</div>
+	<div class="formContainer girisContainer">
+		<form action="#">
+			<h1>Giriş Yap </h1>
+			
+			<input type="text" placeholder="Kullanıcı Adı" required/>
+			<input type="password" placeholder="Şifre"  required/>
+			<a href="#">Şifreni mi unuttun?</a>
+			<button>Giriş Yap</button>
+		</form>
+	</div>
+	<div class="otherContainer">
+		<div class="other">
+			<div class="otherPanel left">
+				<h1>Tekrar Hoşgeldiniz!</h1>
+				<p> Lütfen kişisel bilgilerinizi giriniz.</p>
+				<button class="btn" id="giris">Giriş Yap</button>
+			</div>
+			<div class="otherPanel right">
+				<h1>Hoşgeldiniz</h1>
+				<p>Bilgilerinizi buraya giriniz.</p>
+				<button class="btn" id="kayit">Kayıt Ol</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
