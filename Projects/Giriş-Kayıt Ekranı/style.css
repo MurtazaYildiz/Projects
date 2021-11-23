@@ -113,7 +113,7 @@ input {
 	z-index: 1;
 }
 
-.container.ightPanelActive .kayitContainer {
+.container.rightPanelActive .kayitContainer {
 	transform: translateX(100%);
 	opacity: 1;
 	z-index: 5;
